@@ -18,7 +18,7 @@ void main()
  	    long  long product =1;
      	for (i=1;i<n;i++)                                  //for 后面不要加{},否则阶乘算不出来 
  	    product = product *i;
-		return product;                      return (product)与return  product两个的运行结果一样                      
+		return (product);                     // return (product)与return  product两个的运行结果一样                      
    	   
 	   
        }
